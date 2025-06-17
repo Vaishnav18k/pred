@@ -659,7 +659,7 @@ import {
   setCurrentChatId,
   deleteChat,
 } from '@/utils/ChatStorage';
-import { supabase } from '@/utils/supabaseClient';
+import { supabase } from '@/utils/supabaseclient';
 
 export default function ChatPage() {
   const [chats, setChats] = useState<Array<{ id: string, title: string, messages: any[] }>>([]);
